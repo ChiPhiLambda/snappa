@@ -13,33 +13,41 @@ Login
 	- Forgot password? (sends email for password reset)
 
 Main Screen
+	- Top bar with name and button to display notifications feed
 	- Start Game
 	- Stats
 	- Settings
 
-Start Game
+New Game
 	- Create game
 		- Creates some host
 		- Invite players
-			- Generates code to join host
-			- Sends push notification to invited players
-				- If accepted, show codes
-				- Else, don't
+			- Select people from all players
+			- Sends push notification to invited players with location and message
 		- Once players joined = 4, activate button to start game; show each team's percent chance to win
 	- Join game
-		- Input code for host
+		- Show all games
+		- Full games are disabled
+		- Ability to click on available games
+		- Join red or blue team
 
 Stats
-	- Player ID (does not need to be displayed)
-	- Player name
-	- Games played
-	- Wins
-	- Losses
-	- Sinks
-	- Drinks
-	- Drinks forced
-	- Time played
-	- Avg stats
+	- Your stats
+		- Player ID (does not need to be displayed)
+		- Player name
+		- Games played
+		- Wins
+		- Losses
+		- Sinks
+		- Drinks
+		- Drinks forced
+		- Time played
+		- Avg stats
+	- Leaderboards
+		- Every stat
+		- Organize leaderboard specific stat
+	- Current games
+		- Displays current games online
 
 Settings
 	- Change password
